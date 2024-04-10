@@ -14,6 +14,5 @@ describe("App", () => {
 
 describe("ProductCard", () => {
     test("Está renderizando produtos corretamente?", () => {
-        // Seu teste para ProductCard pode ser escrito aqui
     })
 })
