@@ -12,33 +12,8 @@ describe("App", () => {
     })
 })
 
-
-//Está renderizando produtos corretamente?
-
 describe("ProductCard", () => {
     test("Está renderizando produtos corretamente?", () => {
-        const product = {
-            id: {
-                type: "number"
-            },
-            name: {
-                type: "string"
-            },
-            brand: {
-                type: "string"
-            },
-            description: {
-                type: "string"
-            },
-            price: {
-                type: "string"
-            },
-            photo: {
-                type: "string"
-            },
-            count: {
-                type: "number"
-            }
-        }
+        // Seu teste para ProductCard pode ser escrito aqui
     })
 })
