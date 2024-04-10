@@ -1,0 +1,92 @@
+.card {
+    font-family: var(--font-primary);
+    height: 315px;
+    width: 285px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+
+    .divImg {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: var(--color-white);
+
+        img {
+            max-width: 150px;
+            height: 150px;
+        }
+    }
+
+    div {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+
+        div {
+            height: 50px;
+            gap: 15px;
+
+            .subTitle {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                height: 30px;
+
+                h3 {
+                    font-size: var(--topic-size);
+                    font-weight: bold;
+                }
+
+                .price {
+                    background-color: var(--color-grey-600);
+                    color: var(--color-white);
+                    font-size: var(--body-size);
+                    font-weight: var(--title-weight);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 4px;
+                    height: 26px;
+                    padding: 6px;
+                }
+            }
+
+            .category {
+                font-size: var(--hover-size);
+                font-weight: var(--hover-weight);
+            }
+
+        }
+
+        .divButton {
+            display: flex;
+            position: relative;
+            align-items: end;
+            width: 285px;
+            top: 38px;
+
+            button {
+                align-items: end;
+                background: var(--color-grey-0);
+                color: var(--color-white);
+                border-radius: 0px 0px 8px 8px;
+                border: 2px solid var(--color-grey-0);
+                height: 32px;
+                position: absolute;
+                width: 100%;
+                top: 20px;
+            }
+        }
+    }
+}
+
+.card:hover {
+    width: 287px;
+    border: 2px solid var(--color-grey-0);
+}
